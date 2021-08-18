@@ -86,7 +86,7 @@ Profile.Cacheable = cacheComponent(Profile, 'widget.profile', props => {
     const {
         avatar,
         gravatar,
-        avatar_rounded = false,
+        avatar_rounded = true,
         author = props.config.author,
         author_title,
         location,
@@ -102,7 +102,7 @@ Profile.Cacheable = cacheComponent(Profile, 'widget.profile', props => {
         if (avatar) {
             return url_for(avatar);
         }
-        return url_for('/img/avatar.png');
+        return url_for('/img/profile/my_profile.png');
     }
 
     const postCount = site.posts.length;

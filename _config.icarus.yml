@@ -163,7 +163,7 @@ search:
 comment:
     type: disqus
     # Disqus shortname
-    shortname: ''
+    shortname: 'hyojin'
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
@@ -227,34 +227,32 @@ widgets:
         # Author name
         author: Hyojin
         # Author title
-        author_title: Your title
+        author_title: Love Yourself
         # Author's current location
         location: Seoul
         # URL or path to the avatar image
-        avatar: 
+        avatar: /img/profile/my_profile.png
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://github.com/hjiee'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/hjiee/hjiee.github.io'
-            Facebook:
-                icon: fab fa-facebook
-                url: ''
-            Twitter:
-                icon: fab fa-twitter
-                url: ''
-            Dribbble:
-                icon: fab fa-dribbble
-                url: ''
-            RSS:
-                icon: fas fa-rss
-                url: /
+                url: 'https://github.com/hjiee'
+            LinkedIn:
+                icon: fab fa-linkedin
+                url: 'https://www.linkedin.com/in/%ED%9A%A8%EC%A7%84-%EB%B0%B0-797a96184/'
+            Instagram:
+                icon: fab fa-instagram
+                url: 'https://instagram.com/h_jiee'
+#            RSS:
+#                icon: fas fa-rss
+#                url: /
+
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -267,19 +265,22 @@ widgets:
         # Maximum level of headings to show (1-6)
         depth: 3
     # Recommendation links widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: links
-        # Names and URLs of the sites
-        links:
-            Hexo: 'https://hexo.io'
-            Bulma: 'https://bulma.io'
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: links
+#        # Names and URLs of the sites
+#        links:
+#            Hexo: 'https://hexo.io'
+#            Bulma: 'https://bulma.io'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: categories
+        categories:
+            - android
+            - 생각정리
     # Recent posts widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -296,34 +297,34 @@ widgets:
         position: left
         type: tags
     # Google FeedBurner email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
-        # Hint text under the email input
-        description: 
-        # Feedburner ID
-        feedburner_id: ''
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: subscribe_email
+#        # Hint text under the email input
+#        description:
+#        # Feedburner ID
+#        feedburner_id: ''
     # Google AdSense unit configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
-        # AdSense client ID
-        client_id: ''
-        # AdSense AD unit ID
-        slot_id: ''
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: adsense
+#        # AdSense client ID
+#        client_id: ''
+#        # AdSense AD unit ID
+#        slot_id: ''
     # Follow.it email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: followit
-        # Hint text under the email input
-        description: 
-        # Subscription form action URL
-        action_url: ''
-        # Feed claiming verification code
-        verification_code: ''
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: followit
+#        # Hint text under the email input
+#        description:
+#        # Subscription form action URL
+#        action_url: ''
+#        # Feed claiming verification code
+#        verification_code: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
