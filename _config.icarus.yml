@@ -165,10 +165,10 @@ search:
 
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-#comment:
-#    type: disqus
-#    # Disqus shortname
-#    shortname: ''
+comment:
+    type: disqus
+    # Disqus shortname
+    shortname: 'hjiee'
 
 
 # Donate plugin configurations
