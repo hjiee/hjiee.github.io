@@ -110,6 +110,7 @@ navbar:
         Categories: /categories
         Tags: /tags
         About: /about
+#        Resume: /resume
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
@@ -281,14 +282,18 @@ widgets:
         collapsed: true
         # Maximum level of headings to show (1-6)
         depth: 3
-    # Recommendation links widget configurations
+
+#######################################################################################################################
+####################################################     링크모음     ####################################################
+#######################################################################################################################
+#    # Recommendation links widget configurations
 #    -
 #        # Where should the widget be placed, left sidebar or right sidebar
 #        position: left
 #        type: links
 #        # Names and URLs of the sites
 #        links:
-#            Hexo: 'https://hexo.io'
+#            Resume: 'https://bit.ly/hyojin-resume'
 #            Bulma: 'https://bulma.io'
     # Categories widget configurations
     -
